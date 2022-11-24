@@ -408,25 +408,16 @@ body{
     border-bottom: 60px solid var(--main-color);
     z-index: -1;
 }
-/*
-@media (max-width:991px) {
-    .about-content .image::before ,
-    .about-content .image::after {
-        display: none;
-    }
-} */
+
 .about-content .image img{
     width: 250px;
-    height: 280px;
-    
-    
+    height: 280px;    
 }
+
 .about-content .text{
     flex-basis: calc(100% - 500px) ;
-    
-    
-
 }
+
 .about-content .text p:first-of-type{
     font-weight: bold;
     line-height: 1.8;
@@ -503,8 +494,8 @@ body{
         padding: 30px 10px;
         text-align: center;
         font-size: 18px;
-
     }
+
     .footer span{
         color: var(--main-color);
         font-weight: bold;
